@@ -77,6 +77,8 @@ app.put("/books/:id", (req, res) => {
   });
 });
 
-app.listen(8080, () => {
-  console.log("Connected to backend.");
+const port = process.env.PORT || 8080; // Default to 8080 if PORT is not set
+
+app.listen(port, () => {
+  console.log(`Connected to backend on port ${port}.`);
 });
