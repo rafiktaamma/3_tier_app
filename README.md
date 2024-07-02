@@ -3,7 +3,7 @@
 ✨This repository is created to learn and deploy  3-tier application on Azure. this project contain three layer Presentation, Application and database
 
 ## 🏠 Architecture
-![Architecture of the application](architecture.gif)
+![Architecture of the application](architecture.png)
 
 ## Tech stack
 
