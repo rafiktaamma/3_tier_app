@@ -1,6 +1,6 @@
  3 tier Application
 
-✨This repository is created to learn and deploy  3-tier application on aws cloud. this project contain three layer Presentation, Application and database
+✨This repository is created to learn and deploy  3-tier application on Azure. this project contain three layer Presentation, Application and database
 
 ## 🏠 Architecture
 ![Architecture of the application](architecture.gif)
@@ -29,7 +29,6 @@ vim src/pages/config.js
 ```
 
 ```javascript
-// const API_BASE_URL = "http://25.41.26.237:80"; // on live backend server which is running on port 80
 const API_BASE_URL = "http://localhost:portNumber";
 export default API_BASE_URL;
 ```
